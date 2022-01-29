@@ -6,7 +6,7 @@ $(document).ready(function(){
         method: 'GET',
         url: gitUrl
     }).then(function(response){
-        console.log(response);
+        
         for(let i = 0; i < response.length; i++){
             const li = $("<li>");
             const a = $("<a>").attr("href", response[i].html_url);
