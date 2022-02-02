@@ -1,3 +1,15 @@
 .card{
     top: 20px; 
 }
+a:link{
+    color: yellowgreen;
+}
+a:visited{
+    color: yellowgreen;
+}
+a:hover{
+    color: yellowgreen;
+}
+a:active{
+    color: aqua;
+}
